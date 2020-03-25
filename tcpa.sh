@@ -7,7 +7,7 @@ export LANG=en_US.UTF-8
 yum -y install epel-release
 yum -y install net-tools
 
-curl -o /tmp/tcpa_packets_180619_1151.tar.gz https://down.cxk8.com/tcpa/tcpa_packets_180619_1151.tar.gz
+curl -o /tmp/tcpa_packets_180619_1151.tar.gz https://cdn.jsdelivr.net/gh/tc-cdn/tcpa/tcpa_packets_180619_1151.tar.gz
 chmod +x /etc/rc.d/rc.local
 cat>>/etc/rc.local<<EOF
 ####tcpa####
