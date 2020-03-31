@@ -29,5 +29,6 @@ EOF
 rpm -ivh https://down.cxk8.com/tcpa/kernel-3.10.0-693.5.2.tcpa06.tl2.x86_64.rpm --force
 echo "内核安装完毕,3秒后将自动重启...."
 echo "重启后安装自动完成,lsmod|grep tcpa查看是否开启成功."
+rm -rf tcpa.sh
 sleep 3
 reboot
