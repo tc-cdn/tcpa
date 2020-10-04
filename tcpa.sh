@@ -12,7 +12,7 @@ chmod +x /etc/rc.d/rc.local
 cat>>/etc/rc.local<<EOF
 ####tcpa####
 cd /tmp/
-tar xf tcpa_packets_180619_1151.tar.gz
+tar xzvf tcpa_packets_180619_1151.tar.gz
 cd tcpa_packets
 sh install.sh
 cd /usr/local/storage/tcpav2
